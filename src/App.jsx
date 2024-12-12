@@ -10,7 +10,7 @@ const App = () => {
         <Helmet>
           <title>Amgad Hussien Aboouf</title> {/* العنوان الذي يظهر في التبويب */}
           <meta property="og:site_name" content="Portofolio Amgad Hussien Aboouf" />
-          <link rel="icon" type="image/png" href="/public/profiledp.png" /> {/* استبدل الرابط بالرابط الخاص بالصورة */}
+          <link rel="icon" type="image/png" href="/profiledp.png" /> {/* استبدل الرابط بالرابط الخاص بالصورة */}
           <meta name="description" content="" />
           <meta name="robots" content="index, follow"/>
           <meta name="keywords" content="مدير مالي,Financial manager" /> 
@@ -19,7 +19,7 @@ const App = () => {
           <meta name="author" content="Amgad Aboouf" /> {/* اسم الكاتب أو صاحب الموقع */}
           <meta property="og:title" content="Portofolio Amgad Hussien Aboouf" /> {/* عنوان الموقع عند المشاركة على وسائل التواصل الاجتماعي */}
           <meta property="og:description" content="professional in marketing, sales, HR, and accounting." />
-          <meta property="og:image" content="/public/profiledp.png" /> {/* صورة مميزة للموقع عند المشاركة */}
+          <meta property="og:image" content="/profiledp.png" /> {/* صورة مميزة للموقع عند المشاركة */}
         </Helmet>
       <header className="header">
         <a href="#" className="logo">Portofolio</a>
@@ -48,13 +48,13 @@ const App = () => {
           <a href="1.pdf" download="1.pdf" className="btn">Download CV</a>
         </div>
         <div className="home-img">
-          <img src="/public/profiledp.png" alt />
+          <img src="/profiledp.png" alt />
         </div>
       </secttion>
       {/* ABOUT SECTION DESIGN */}
       <section className="about" id="about">
         <div className="about-img">
-          <img src="/public/aboutpic.png" alt />
+          <img src="/aboutpic.png" alt />
         </div>
         <div className="about-content">
           <h2 className="heading">About <span>Me</span></h2>
