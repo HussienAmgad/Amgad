@@ -1,0 +1,24 @@
+{
+  "theme_color": "#8936FF",
+  "background_color": "#2EC6FE",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "/public/profiledp.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "/public/profiledp.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "scope": "https://amgad-aboouf.vercel.app",
+  "start-url": "https://amgad-aboouf.vercel.app",
+  "name": "Amgad Aboouf",
+  "short_name": "Amgad Aboouf"
+}
