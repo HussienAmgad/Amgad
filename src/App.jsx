@@ -4,7 +4,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { Helmet } from 'react-helmet';
 
 const App = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <div>
         <Helmet>
@@ -21,10 +25,14 @@ const App = () => {
           <meta property="og:description" content="professional in marketing, sales, HR, and accounting." />
           <meta property="og:image" content="/profiledp.png" /> {/* صورة مميزة للموقع عند المشاركة */}
         </Helmet>
-      <header className="header">
+        <header className="header">
         <a href="#" className="logo">Portofolio</a>
-        <i className="fa-solid fa-bars" id="menu-icon" />
-        <nav className="navbar">
+        <i
+          className={`fa-solid ${menuOpen ? 'fa-xmark' : 'fa-bars'}`}
+          id="menu-icon"
+          onClick={toggleMenu}
+        />
+        <nav className={`navbar ${menuOpen ? 'active' : ''}`}>
           <a href="#home" className="active">Home</a>
           <a href="#about">About</a>
           <a href="#services">Skills</a>
