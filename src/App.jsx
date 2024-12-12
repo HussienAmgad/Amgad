@@ -45,7 +45,7 @@ const App = () => {
             <a href="#"><i className="fa-brands fa-instagram" /></a>
             <a href="#"><i className="fa-brands fa-linkedin-in" /></a>
           </div>
-          <a href="1.pdf" download="1.pdf" className="btn">Download CV</a>
+          <a href="/1.pdf" download="/1.pdf" className="btn">Download CV</a>
         </div>
         <div className="home-img">
           <img src="/profiledp.png" alt />
